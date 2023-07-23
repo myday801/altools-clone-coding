@@ -1,0 +1,19 @@
+@import "./tailwind";
+@import "./lib/swiper-bundle";
+@import "./main";
+
+.height-60 {
+  height: 60px;
+}
+
+.w-logo {
+  width: 76px;
+}
+
+.product-card {
+  @apply flex flex-col items-center justify-center py-5;
+}
+
+.product-icon {
+  @apply h-11 w-11;
+}
