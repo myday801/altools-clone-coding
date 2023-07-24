@@ -59,13 +59,12 @@
               </a>
             </h1>
             <nav class="relative hidden lg:block">
-              <ul class="flex items-center gap-x-4">
+              <ul class="relative flex items-center gap-x-4">
                 <li>
-                  <a
-                    href="#"
-                    class="block rounded-md px-4 py-3 text-base font-bold leading-4 hover:bg-gray-100 hover:opacity-100"
-                    >알툴즈 다운로드</a
-                  >
+                  <div class="dropdown">
+                    <a href="#" class="dropdown-button">알툴즈 다운로드</a>
+                    <div class="dropdown-content">ddd</div>
+                  </div>
                 </li>
                 <li>
                   <a
@@ -95,19 +94,9 @@
             >
               로그인
             </button>
-            <div class="block h-8 w-8 p-0 lg:hidden">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <mask x="0" y="0" width="32" height="32">
-                  <rect width="32" height="32" fill="#D9D9D9"></rect>
-                </mask>
-                <g mask="url(#mask0_605_11894)">
-                  <path
-                    d="M7 23V21H25V23H7ZM7 17V15H25V17H7ZM7 11V9H25V11H7Z"
-                    fill="#1C1B1F"
-                  ></path>
-                </g>
-              </svg>
-            </div>
+            <button id="hamburgerBtn" class="block h-8 w-8 p-0 lg:hidden">
+              <i class="icon icon-hamburger icon-md bg-black"></i>
+            </button>
           </div>
         </div>
       </header>
@@ -437,6 +426,13 @@
         <!-- Promotion section -->
         <!-- Life Hack section -->
         <!-- News section -->
+
+        <div id="mobileMenu" class="mobile-menu">
+          aaa
+          <button id="mobileMenuCloseBtn" class="mobile-menu-close">
+            <i class="icon icon-md icon-hamburger bg-black"></i>
+          </button>
+        </div>
       </main>
       <!-- Footer -->
       <footer class="pb-5 pt-10 text-[#8b95a1]">
@@ -444,7 +440,9 @@
           <!-- footer menu -->
           <ul class="ml-[-10px] flex flex-wrap items-center gap-x-3">
             <li class="mb-1">
-              <a href="#" class="p-2.5 text-xs font-semibold leading-none"
+              <a
+                href="#"
+                class="list-item p-2.5 text-xs font-semibold leading-none"
                 >회사소개</a
               >
             </li>

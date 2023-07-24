@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+.icon-md {
+  @apply h-8 w-8;
+}
+
+.icon-hamburger {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='none'%3E%3Cmask x='0' y='0' width='32' height='32'%3E%3Crect width='32' height='32' fill='%23D9D9D9'%3E%3C/rect%3E%3C/mask%3E%3Cg mask='url(%23mask0_605_11894)'%3E%3Cpath d='M7 23V21H25V23H7ZM7 17V15H25V17H7ZM7 11V9H25V11H7Z' fill='%231C1B1F'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
