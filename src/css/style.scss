@@ -46,3 +46,7 @@
 .button-rotate-180 {
   transform: rotate(180deg);
 }
+
+.mobileMenu-content-link {
+  @apply mt-2 flex items-center p-2 leading-none;
+}
