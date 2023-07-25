@@ -23,16 +23,21 @@ module.exports = {
       padding: {
         "60px": "60px",
       },
+      width: {
+        "76px": "76px",
+      },
       height: {
         "18px": "18px",
         "400px": "400px",
         "600px": "600px",
         "52px": "52px",
         "66px": "66px",
+        "60px": "60px",
         "480px": "480px",
       },
       margin: {
         "-10px": "-10px",
+        "60px": "60px",
       },
       lineHeight: {
         1.55: "1.55",
@@ -47,6 +52,7 @@ module.exports = {
         "login-btn": "#484848",
         "product-card-desc": "rgba(26, 26, 26, .5)",
         "al-black": "#1a1a1a",
+        "mobilemenu-border": "#f2f4f6",
       },
       fontSize: {
         h4: "15px",
@@ -68,6 +74,9 @@ module.exports = {
       },
       borderRadius: {
         "pc-28px": "28px",
+      },
+      backgroundIage: {
+        "icon-slate-open": "url('../img/dropdown-arrow.svg')",
       },
     },
     screens: {
