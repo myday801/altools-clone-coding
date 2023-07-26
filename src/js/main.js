@@ -10,10 +10,8 @@ $("#mobileMenuCloseBtn").on("click", function () {
   $("#mobileMenu").toggle();
 });
 
-$("#js-mobile-download").on("click", function () {
-  $("#js-download-content").toggle();
-});
-
-$("#js-mobile-customer").on("click", function () {
-  $("#js-customer-content").toggle();
+$(".js-mobilemenu-clickable").on("click", function () {
+  let mobileMenuLi = $(this).parent();
+  mobileMenuLi.find(".mobile-content").toggle();
+  $(this).toggleClass(".rotate-180");
 });

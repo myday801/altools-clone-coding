@@ -40,10 +40,11 @@
   min-height: 100vh;
   height: 100%;
   background-color: #fff;
+  overflow-y: auto;
   z-index: 10;
 }
 
-.button-rotate-180 {
+.rotate-180 {
   transform: rotate(180deg);
 }
 
