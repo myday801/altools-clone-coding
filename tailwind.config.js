@@ -74,9 +74,12 @@ module.exports = {
       },
       borderRadius: {
         "pc-28px": "28px",
+        "10px": "10px",
       },
       backgroundIage: {
         "icon-slate-open": "url('../img/dropdown-arrow.svg')",
+        "mobileMenu-banner": "linear-gradient(90deg, #ff6746, #ff477e)",
+        "mobileMenu-bannner-arrow": "url('../img/mobilemenu-banner-arrow.svg')",
       },
     },
     screens: {
