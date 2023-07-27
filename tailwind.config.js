@@ -68,6 +68,8 @@ module.exports = {
       boxShadow: {
         "product-card":
           "0 0 2px rgba(0, 0, 0, .08), 4px 12px 36px rgba(0, 0, 0, .09)",
+        "header-dropdwon-box":
+          "0 0 1px rgba(0,0,0,.25), 0 8px 20px rgba(0,0,0,.15)",
       },
       backgroundSize: {
         "50%": "50%",

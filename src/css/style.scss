@@ -24,7 +24,7 @@
 }
 
 .dropdown-content {
-  @apply absolute top-14 hidden rounded-md bg-white;
+  @apply absolute left-0 top-full hidden whitespace-nowrap rounded-md bg-white shadow-[0_0_1px_rgba(0,0,0,.25),_0_8px_20px_rgba(0,0,0,.15)];
 }
 
 .dropdown:hover .dropdown-content {
@@ -50,4 +50,14 @@
 
 .mobileMenu-content-link {
   @apply mt-2 flex items-center p-2 leading-none;
+}
+
+.dropdown-button::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  vertical-align: 1px;
+  background: url("../img/blt_drop_black.png") 0 0/100% auto no-repeat;
 }
