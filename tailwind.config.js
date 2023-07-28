@@ -84,6 +84,8 @@ module.exports = {
         "mobileMenu-bannner-arrow": "url('../img/mobilemenu-banner-arrow.svg')",
         "ad-zero-m": "url('../img/bg_adzero_subscribe_m.png')",
         "ad-zero-pc": "url('../img/bg_adzero.subscribe.png')",
+        "business-m": "url('../img/bg_business_mobile.png')",
+        "business-pc": "url('../img/bg_business_pc.png')",
       },
     },
     screens: {
