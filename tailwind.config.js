@@ -67,7 +67,7 @@ module.exports = {
       },
       boxShadow: {
         "product-card":
-          "0 0 2px rgba(0, 0, 0, .08), 4px 12px 36px rgba(0, 0, 0, .09)",
+          "0 0 2px rgba(0,0,0,.08), 4px 12px 36px rgba(0,0,0,.09)",
         "header-dropdwon-box":
           "0 0 1px rgba(0,0,0,.25), 0 8px 20px rgba(0,0,0,.15)",
       },
@@ -82,6 +82,7 @@ module.exports = {
         "icon-slate-open": "url('../img/dropdown-arrow.svg')",
         "mobileMenu-banner": "linear-gradient(90deg, #ff6746, #ff477e)",
         "mobileMenu-bannner-arrow": "url('../img/mobilemenu-banner-arrow.svg')",
+        "mobileMenu-bannner-arrow": "url('../img/product-quick-arrow.svg')",
         "ad-zero-m": "url('../img/bg_adzero_subscribe_m.png')",
         "ad-zero-pc": "url('../img/bg_adzero.subscribe.png')",
         "business-m": "url('../img/bg_business_mobile.png')",
