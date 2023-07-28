@@ -8,11 +8,11 @@
 }
 
 .product-card {
-  @apply flex flex-col items-center justify-center py-5;
+  @apply flex flex-col items-center justify-center gap-y-2.5 rounded-xl bg-white py-5 shadow-[0_0_2px_rgba(0,0,0,.08),_4px_12px_36px_rgba(0,0,0,.09)] lg:flex lg:flex-row lg:items-center lg:justify-center lg:gap-x-[6.472%] lg:rounded-2xl lg:py-7;
 }
 
 .product-icon {
-  @apply h-11 w-11;
+  @apply block h-11 w-11 rounded-lg;
 }
 
 .dropdown {
