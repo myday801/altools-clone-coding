@@ -82,6 +82,8 @@ module.exports = {
         "icon-slate-open": "url('../img/dropdown-arrow.svg')",
         "mobileMenu-banner": "linear-gradient(90deg, #ff6746, #ff477e)",
         "mobileMenu-bannner-arrow": "url('../img/mobilemenu-banner-arrow.svg')",
+        "ad-zero-m": "url('../img/bg_adzero_subscribe_m.png')",
+        "ad-zero-pc": "url('../img/bg_adzero.subscribe.png')",
       },
     },
     screens: {
