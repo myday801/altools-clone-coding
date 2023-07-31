@@ -87,6 +87,7 @@ module.exports = {
         "ad-zero-pc": "url('../img/bg_adzero.subscribe.png')",
         "business-m": "url('../img/bg_business_mobile.png')",
         "business-pc": "url('../img/bg_business_pc.png')",
+        "promotion-navigation": "url('../img/promotion-swiper-button.svg')",
       },
     },
     screens: {

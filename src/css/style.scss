@@ -73,3 +73,44 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.promotion-button-prev {
+  position: absolute;
+  right: 40px;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-top: -24px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  z-index: 10;
+}
+
+.promotion-button-prev::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("../img/promotion-swiper-button.svg") 0 0/100% auto no-repeat;
+}
+
+.promotion-button-next {
+  position: absolute;
+  right: 40px;
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin-top: -24px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  z-index: 10;
+}
+
+.promotion-button-next::after {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("../img/promotion-swiper-button.svg") 0 0/100% auto no-repeat;
+  transform: rotate(180deg);
+}
