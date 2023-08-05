@@ -81,6 +81,12 @@ module.exports = {
       backgroundIage: {
         "icon-slate-open": "url('../img/dropdown-arrow.svg')",
         "mobileMenu-banner": "linear-gradient(90deg, #ff6746, #ff477e)",
+        "main-slide-01-m": "url(../img/img_mainSlide_1_m.png)",
+        "main-slide-01": "url(../img/img_mainSlide_1_pc.png)",
+        "main-slide-02-m": "url(../img/img_mainSlide_2_m.png)",
+        "main-slide-02": "url(../img/img_mainSlide_2_pc.png)",
+        "main-slide-03-m": "url(../img/img_mainSlide_3_m.png)",
+        "main-slide-03": "url(../img/img_mainSlide_3_pc.png)",
         "mobileMenu-bannner-arrow": "url('../img/mobilemenu-banner-arrow.svg')",
         "mobileMenu-bannner-arrow": "url('../img/product-quick-arrow.svg')",
         "ad-zero-m": "url('../img/bg_adzero_subscribe_m.png')",

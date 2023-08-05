@@ -4,10 +4,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
 $("#hamburgerBtn").on("click", function () {
   $("#mobileMenu").toggle();
+  $("body").addClass("overflow-hidden");
 });
 
 $("#mobileMenuCloseBtn").on("click", function () {
   $("#mobileMenu").toggle();
+  $("body").removeClass("overflow-hidden");
 });
 
 $(".js-mobilemenu-clickable").on("click", function () {

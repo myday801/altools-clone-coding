@@ -12,8 +12,8 @@ var mainSwiper = new Swiper(".js-main-swiper", {
     type: "fraction",
   },
   navigation: {
-    prevEl: ".swiper-button-prev",
-    nextEl: ".swiper-button-next",
+    prevEl: ".main-swiper-prev",
+    nextEl: ".main-swiper-next",
   },
 });
 
@@ -47,6 +47,10 @@ var promoSwiper = new Swiper(".js-promotion-swiper", {
       navigation: {
         prevEl: "promotion-button-prev",
         nextEl: "promotion-button-next",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
       },
     },
   },
