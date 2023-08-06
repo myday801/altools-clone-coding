@@ -116,3 +116,17 @@
   background: url("../img/promotion-swiper-button.svg") 0 0/100% auto no-repeat;
   transform: rotate(180deg);
 }
+
+.news-text-strong {
+  @apply mt-1.5 block text-base font-semibold leading-none lg:mt-2.5;
+}
+
+.news-text-strong::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+  vertical-align: -2px;
+  background: url("../img/news-arrow.svg") 0 0/100% auto no-repeat;
+}
