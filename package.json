@@ -32,7 +32,9 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp prod",
-    "prod": "gulp prod"
+    "prod": "gulp prod",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
