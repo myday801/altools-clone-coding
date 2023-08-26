@@ -49,7 +49,7 @@
   "bugs": {
     "url": "https://github.com/manjumjn/gulp-with-tailwindcss/issues"
   },
-  "homepage": "https://github.com/manjumjn/gulp-with-tailwindcss#readme",
+  "homepage": "https://github.com/myday801/altools-clone-coding.git",
   "dependencies": {
     "jquery": "^3.7.0",
     "swiper": "^10.0.4"

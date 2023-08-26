@@ -33,6 +33,11 @@ $("swiper-button-play").on("click", function () {
 // js-promotion-swiper
 var promoSwiper = new Swiper(".js-promotion-swiper", {
   slidesPerView: 1,
+  pagination: {
+    el: ".promotion-swiper-pagination",
+    type: "fraction",
+  },
+  loop: true,
   breakpoints: {
     576: {
       slidesPerView: 2,
@@ -45,8 +50,8 @@ var promoSwiper = new Swiper(".js-promotion-swiper", {
     1240: {
       slidesPerView: 1,
       navigation: {
-        prevEl: "promotion-button-prev",
-        nextEl: "promotion-button-next",
+        prevEl: ".promotion-button-prev",
+        nextEl: ".promotion-button-next",
       },
       pagination: {
         el: ".swiper-pagination",
